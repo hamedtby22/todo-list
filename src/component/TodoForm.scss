@@ -1,0 +1,26 @@
+@use '../scss/' as *;
+
+.formTodo {
+    @include flex(center,space-between);
+    padding: 40px;
+    width: 400px;
+    margin: 0 auto;
+    button {
+        color: rgb(255, 255, 255);
+        background-color: #140992;
+        border: none;
+        padding: 13px 17px;
+        border-radius: 0 15px 15px 0;
+    }
+
+    input {
+        border-radius: 15px 0 0 15px;
+        height: 40px;
+        width: 400px;
+        border: none;
+        outline: none;
+    }
+
+}
+
+

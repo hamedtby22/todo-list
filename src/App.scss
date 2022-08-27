@@ -1,0 +1,12 @@
+@use './scss/' as *;
+
+*{
+  padding: 0%;
+  margin: 0%
+}
+
+.App {
+  @include flex(center,center);
+  background-color: $body-bg ;
+  height: 100vh;
+}

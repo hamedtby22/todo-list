@@ -1,0 +1,18 @@
+@use '../scss/' as *;
+
+.container {
+
+    width: 100%;
+
+    h1 {
+        font-family: $font-family;
+        color: $white ;
+        margin-left: 35rem;
+    }
+
+    .select {
+        width: 300px;
+        float: right;
+        margin-right: 10px;
+    }
+}
